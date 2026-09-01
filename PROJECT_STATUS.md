@@ -2,7 +2,7 @@
 
 ## Current stage
 
-`Dedicated Stage 4 — Journal Strategy and Submission-Readiness Review`
+`Dedicated Stage 5 — Submission Package and Final Pre-Submission Audit`
 
 ## Gate status
 
@@ -15,6 +15,7 @@
 - Stage 2: `STAGE2_PASS`
 - Stage 3: `STAGE3_PASS`
 - Stage 4: `READY_FOR_SUBMISSION_PACKAGE`
+- Stage 5: `STAGE5_BLOCKED`
 
 ## Completed
 
@@ -25,52 +26,65 @@
 - Stage 1 manuscript architecture and proposition freeze in dedicated repository
 - Stage 2 exact formal derivation and proof completion in dedicated repository
 - Stage 3 correction manuscript draft and two-round internal referee review
-- Stage 4 current journal-policy research, journal ranking, article-path selection and submission-readiness audit
+- Stage 4 journal strategy and submission-readiness audit
+- Stage 5 IJIO-targeted manuscript package, cover letter, highlights, declarations/AI records, reviewer-safe reproducibility package, LaTeX/PDF build, visual PDF review, claim traceability and final editorial-risk audit
+- Stage 5 cross-project metadata recovery from the author's authenticated Shy (2002) IJIO submission package
+- Stage 5 manuscript-specific author confirmations recorded on 2026-09-01
 
-## Frozen manuscript package
-
-- contributions: 3
-- propositions: 3
-- main sections: 5
-- main figures: 1
-- main tables: 0
-- revised main-text length: approximately 3,520 words
-- appendix sections: 4
-- Round-2 internal decision: `READY_FOR_JOURNAL_STRATEGY`
-
-## Stage-4 journal strategy
+## Stage-5 package status
 
 - Primary: `International Journal of Industrial Organization`
-- Working article type: `Comment` (current 2026 journal precedent; live portal label to confirm in Stage 5)
-- Backup 1: `Review of Industrial Organization`
-- Backup 2: `International Review of Economics & Finance`
-- Submission working title: `Correcting R&D Competition--Cooperation Thresholds under Asymmetric Spillovers`
-- Primary financial route: IJIO subscription publication; no mandatory APC under current Elsevier subscription-route policy
-- Repository: remain private until live IJIO anonymization/repository rules are confirmed
-- AI disclosure: required under current Elsevier policy; draft frozen for Stage-5 author confirmation
+- Substantive manuscript function: third-party Comment
+- Authenticated IJIO Article Type observed 2026-08-31: `Research Paper`; no `Comment` option exposed
+- Review/anonymization workflow: double-anonymized operation, using anonymous manuscript plus separate title page
+- Initial LaTeX source: not required until revision in the authenticated prior IJIO upload flow
+- Highlights: optional IJIO upload file type in authenticated prior flow
+- IJIO-specific submission fee: `NOT_VERIFIED`
+- subscription-route mandatory APC: `0` under current Elsevier hybrid/subscription policy
+- submission title: `A Comment on “R&D Competition and Cooperation with Asymmetric Spillovers in an Oligopoly Market”`
+- abstract: 120 words
+- keywords: 5
+- JEL: `L13; O32`
+- author: Ryota Matsuki
+- affiliation: Independent Researcher
+- location: Matsuyama, Ehime, Japan; postal code 790-0853
+- corresponding email: ryota.matsuki@gmail.com
+- phone: +81-90-9552-5110
+- ORCID: 0009-0005-2329-531X
+- funding: no external funding — confirmed 2026-09-01
+- competing interests: none — confirmed 2026-09-01
+- acknowledgments: none — confirmed 2026-09-01
+- originality / concurrent submission: original except cited material; not under consideration elsewhere — confirmed 2026-09-01
+- AI disclosure: current Stage-5 wording approved — confirmed 2026-09-01
+- main manuscript PDF: 10 pages, build/visual QC PASS
+- reviewer-safe reproducibility: PASS
+- repository: remains private
+- no journal transmission performed
+
+## Cross-project provenance
+
+Stable author metadata and authenticated IJIO workflow facts were recovered from `ryotamatsuki/stable-pricing-switching-costs`, especially:
+
+- `submission/submission_metadata.md`
+- `submission/author_confirmation_required.md`
+- `submission/upload_manifest.md`
+- `submission/README_stage8.md`
+- `submission/title_page.tex`
+
+The present manuscript's funding, competing interests, acknowledgments, originality/no-concurrent-submission status and AI-disclosure wording were separately confirmed by the author on 2026-09-01 and are recorded in `submission/ijio/CURRENT_MANUSCRIPT_AUTHOR_CONFIRMATION.md`.
 
 ## Formal-proof status
 
-All six Stage-1 proof obligations remain closed. Exact proof records are in `manuscript/FORMAL_DERIVATIONS.md`; executable symbolic checks are in `code/formal_derivation.py`.
+All proof obligations remain closed. Exact proof records are in `manuscript/FORMAL_DERIVATIONS.md`; executable checks remain in `code/formal_derivation.py`, with reviewer-safe Stage-5 packaging recorded separately.
 
-## Remaining before actual submission
+## Remaining strict blocker before `READY_TO_SUBMIT`
 
-Administrative/package tasks only:
+1. verify IJIO-specific submission-fee status.
 
-- confirm IJIO live portal article-type label
-- confirm IJIO submission-fee status
-- confirm peer-review/anonymization model
-- confirm highlights/graphical-abstract/CRediT requirements
-- add factual author/affiliation/corresponding-author metadata
-- finalize keywords/JEL and declarations
-- implement reviewer-safe reproducibility package
-- prepare cover letter and any portal-required ancillary files
-- build final PDF/source package and run final preflight
+Later authenticated system-only fields may still appear during submission, and a street-level address should be supplied only if IJIO actually requires one. Those do not justify inventing information now.
 
-No new mathematics or model extension is required.
+Article type, review model, stable author identity/contact metadata, funding, competing interests, acknowledgments, originality/concurrent-submission, AI disclosure, initial-source handling and Highlights status are no longer blockers.
 
-## Next stage
+## Next action
 
-`Dedicated Stage 5 — Submission Package and Final Pre-Submission Audit`
-
-Stage 5 should prepare the IJIO submission package and stop before actual submission unless the user separately authorizes the irreversible journal-submission action. The Stage-0 claim boundary and Stage-2 exact proof record remain controlling constraints.
+Do not submit. Resolve the IJIO-specific submission-fee status, then rerun the final Stage-5 delta preflight and regenerate/re-hash the upload binaries. Only after the gate becomes `READY_TO_SUBMIT` may a separately authorized submission stage transmit the manuscript.
