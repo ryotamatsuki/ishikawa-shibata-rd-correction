@@ -28,39 +28,63 @@
 - Stage 3 correction manuscript draft and two-round internal referee review
 - Stage 4 journal strategy and submission-readiness audit
 - Stage 5 IJIO-targeted manuscript package, cover-letter draft, highlights, declarations/AI records, reviewer-safe reproducibility package, LaTeX/PDF build, visual PDF review, claim traceability and final editorial-risk audit
+- Stage 5 cross-project metadata recovery from the author's authenticated Shy (2002) IJIO submission package
 
 ## Stage-5 package status
 
 - Primary: `International Journal of Industrial Organization`
-- Substantive article pathway: `Comment` verified by 2026 IJIO precedent
-- Exact ordinary-submission portal label: `ARTICLE_TYPE_UNRESOLVED`
+- Substantive manuscript function: third-party Comment
+- Authenticated IJIO Article Type observed 2026-08-31: `Research Paper`; no `Comment` option exposed
+- Review/anonymization workflow: double-anonymized operation, using anonymous manuscript plus separate title page, confirmed from authenticated 2026-08-31 IJIO package
+- Initial LaTeX source: not required until revision in the authenticated prior IJIO upload flow
+- Highlights: optional IJIO upload file type in authenticated prior flow
 - IJIO-specific submission fee: `NOT_VERIFIED`
-- IJIO-specific review/anonymization model: `NOT_VERIFIED`
 - subscription-route mandatory APC: `0` under current Elsevier hybrid/subscription policy
 - submission title: `A Comment on “R&D Competition and Cooperation with Asymmetric Spillovers in an Oligopoly Market”`
 - abstract: 120 words
 - keywords: 5
 - JEL: `L13; O32`
+- author: Ryota Matsuki
+- affiliation: Independent Researcher
+- location: Matsuyama, Ehime, Japan; postal code 790-0853
+- corresponding email: ryota.matsuki@gmail.com
+- phone: +81-90-9552-5110
+- ORCID: 0009-0005-2329-531X
 - main manuscript PDF: 10 pages, build/visual QC PASS
 - reviewer-safe reproducibility: PASS
 - repository: remains private
 - no journal transmission performed
 
+## Cross-project provenance
+
+Stable author metadata and authenticated IJIO workflow facts were recovered from the author's existing repository `ryotamatsuki/stable-pricing-switching-costs`, especially:
+
+- `submission/submission_metadata.md`
+- `submission/author_confirmation_required.md`
+- `submission/upload_manifest.md`
+- `submission/README_stage8.md`
+- `submission/title_page.tex`
+
+Those records document an actual authenticated IJIO submission flow on 2026-08-31. Manuscript-specific attestations from the Shy project are not automatically reused for the present manuscript.
+
 ## Formal-proof status
 
 All proof obligations remain closed. Exact proof records are in `manuscript/FORMAL_DERIVATIONS.md`; executable checks remain in `code/formal_derivation.py`, with reviewer-safe Stage-5 packaging recorded separately.
 
-## Strict blockers before `READY_TO_SUBMIT`
+## Remaining strict blockers before `READY_TO_SUBMIT`
 
-1. resolve the valid current IJIO live submission system/GFA and exact ordinary-submission article-type label;
-2. verify IJIO-specific submission-fee status;
-3. verify IJIO-specific review/anonymization model;
-4. supply verified author/affiliation/corresponding-author metadata;
-5. author confirms funding, competing interests, acknowledgments, originality/concurrent-submission statement and AI-disclosure wording;
-6. confirm live portal requirements for highlights, graphical abstract and CRediT.
+1. verify IJIO-specific submission-fee status;
+2. confirm for this manuscript: funding status;
+3. confirm for this manuscript: competing interests;
+4. confirm for this manuscript: acknowledgments;
+5. confirm originality and no concurrent submission for this manuscript;
+6. author performs final factual approval of the current AI-disclosure wording;
+7. complete any later authenticated system-only fields, including a street-level address only if IJIO actually requires one.
 
-These are policy/metadata blockers, not mathematical blockers.
+Article type, review model, stable author identity/contact metadata, initial-source handling and Highlights status are no longer blockers.
+
+These remaining items are administrative/attestation blockers, not mathematical blockers.
 
 ## Next action
 
-Do not submit. Resolve the listed live-policy and author-metadata items, then rerun a short Stage-5 delta preflight. Only after the gate becomes `READY_TO_SUBMIT` may a separately authorized submission stage transmit the manuscript.
+Do not submit. Confirm the manuscript-specific declarations and resolve the IJIO submission-fee status, then rerun a short Stage-5 delta preflight. Only after the gate becomes `READY_TO_SUBMIT` may a separately authorized submission stage transmit the manuscript.
