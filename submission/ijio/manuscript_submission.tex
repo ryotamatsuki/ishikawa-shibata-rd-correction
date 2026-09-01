@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{proposition}{Proposition}
+\newcommand{\DA}{D_A}
+\newcommand{\Di}{D_i}
+\title{A Comment on ``R\&D Competition and Cooperation with Asymmetric Spillovers in an Oligopoly Market''}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Ishikawa and Shibata (2021) derive closed-form noncooperative and cooperative R\&D equilibria for an oligopoly with asymmetric spillovers and use those solutions to characterize competition--cooperation thresholds. We show that the published equilibrium formulas used in that comparison remain valid, but several subsequent threshold characterizations do not hold generally. The individual equality boundary is not invariant to the R\&D-cost parameter $\gamma$ in general, although a symmetric crossing is exactly $\gamma$-independent. The aggregate equality boundary depends on spillover asymmetry and, in general, on $\gamma$, rather than only on average spillovers. Consequently, the published fixed cutoff misclassifies an open, and hence positive-measure, set of admissible parameters. The correction is narrow: the underlying equilibria and several broader qualitative results remain intact or require only qualification.
+\end{abstract}
+
+\noindent\textbf{Keywords:} R\&D competition; R\&D cooperation; asymmetric spillovers; oligopoly; threshold characterization.\\
+\textbf{JEL classification:} L13; O32.
+
+\input{../../manuscript/sections/01_introduction}
+\input{../../manuscript/sections/02_model}
+\input{../../manuscript/sections/03_individual}
+\input{sections/04_aggregate_submission}
+\input{sections/05_implications_submission}
+
+\appendix
+\input{../../manuscript/sections/appendix_A}
+\input{../../manuscript/sections/appendix_B}
+\input{../../manuscript/sections/appendix_C}
+\input{../../manuscript/sections/appendix_D}
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the author used OpenAI ChatGPT to assist with manuscript structuring and drafting, revision and language editing, and preparation and review of reproducibility code and publication-workflow materials. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.
+
+\begin{thebibliography}{9}
+\bibitem{ishikawa2021}
+N. Ishikawa and T. Shibata (2021),
+``R\&D competition and cooperation with asymmetric spillovers in an oligopoly market,''
+\textit{International Review of Economics \& Finance}, 72, 624--642.
+\href{https://doi.org/10.1016/j.iref.2020.12.016}{doi:10.1016/j.iref.2020.12.016}.
+\end{thebibliography}
+
+\end{document}
