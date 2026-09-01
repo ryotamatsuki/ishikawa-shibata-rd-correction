@@ -10,9 +10,7 @@ The subject is directly within theoretical industrial organization: the correcti
 
 The proposition-level calculations are supported by deterministic Python/SymPy verification code and a reviewer-safe reproducibility package. No external empirical dataset is used. The manuscript includes the generative-AI disclosure required by current Elsevier policy.
 
-[CONFIRM FOR THIS MANUSCRIPT: This manuscript is original, is not under consideration elsewhere, and all factual declarations in the submission package are accurate.]
-
-[CONFIRM FOR THIS MANUSCRIPT: competing-interest statement.]
+The manuscript is original except for properly cited material and is not under consideration by another journal. No external funding supported this work. The author declares no competing interests. There are no acknowledgments.
 
 Sincerely,
 
