@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\newtheorem{proposition}{Proposition}
+\newcommand{\DA}{D_A}
+\newcommand{\Di}{D_i}
+\title{Correcting R\&D Competition--Cooperation Thresholds under Asymmetric Spillovers}
+\author{Author omitted for internal draft}
+\date{Internal draft -- September 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Ishikawa and Shibata (2021) derive closed-form noncooperative and cooperative R\&D equilibria for an oligopoly with asymmetric spillovers and use those solutions to characterize competition--cooperation thresholds. We show that the published equilibrium formulas used in that comparison remain valid, but several subsequent threshold characterizations do not hold generally. The individual equality boundary is not invariant to the R\&D-cost parameter $\gamma$ in general, although a symmetric crossing is exactly $\gamma$-independent. The aggregate equality boundary depends on spillover asymmetry and, in general, on $\gamma$, rather than only on average spillovers. Consequently, the published fixed cutoff misclassifies an open, and hence positive-measure, set of admissible parameters. The correction is narrow: the underlying equilibria and several broader qualitative results remain intact or require only qualification.
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_model}
+\input{sections/03_individual}
+\input{sections/04_aggregate}
+\input{sections/05_implications}
+
+\appendix
+\input{sections/appendix_A}
+\input{sections/appendix_B}
+\input{sections/appendix_C}
+\input{sections/appendix_D}
+
+\begin{thebibliography}{9}
+\bibitem{ishikawa2021}
+N. Ishikawa and T. Shibata (2021),
+``R\&D competition and cooperation with asymmetric spillovers in an oligopoly market,''
+\textit{International Review of Economics \& Finance}, 72, 624--642.
+\href{https://doi.org/10.1016/j.iref.2020.12.016}{doi:10.1016/j.iref.2020.12.016}.
+\end{thebibliography}
+
+\end{document}
