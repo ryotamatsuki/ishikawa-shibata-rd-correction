@@ -2,9 +2,19 @@
 
 ## Executive decision
 
-**`STAGE5_BLOCKED` under the strict gate.**
+**`STAGE5_BLOCKED` under the strict gate, with materially reduced blockers after cross-project metadata recovery.**
 
-The manuscript, figure, reproducibility package, cover-letter draft, highlights, metadata plan and visual PDF preflight are complete to the extent possible without inventing author facts. The block is not mathematical. Current public IJIO sources do not resolve three fields that the Stage-5 protocol makes mandatory before `READY_TO_SUBMIT`: the exact ordinary-submission article-type dropdown label, IJIO-specific submission-fee status, and IJIO-specific review/anonymization model. The public Editorial Manager landing page also displays a development-site warning while other current IJIO materials direct authors to that system. Verified author metadata/funding/COI declarations are additionally absent from the dedicated repository.
+The manuscript, figure, reproducibility package, cover-letter draft, highlights, metadata plan and visual PDF preflight are complete. Stable author metadata and several IJIO workflow fields that were previously unresolved have now been recovered from the author's authenticated Shy (2002) IJIO submission package dated 2026-08-31.
+
+Resolved from that authenticated evidence:
+
+- IJIO author-facing Article Type: `Research Paper`; no `Comment` option exposed;
+- operational double-anonymized workflow: anonymous manuscript plus separate title page;
+- initial LaTeX source not required until revision;
+- Highlights available as an optional upload type;
+- stable author identity/contact metadata (Ryota Matsuki; Independent Researcher; Matsuyama, Ehime, Japan; 790-0853; email; phone; ORCID).
+
+The remaining block is not mathematical. The strict gate still requires IJIO-specific submission-fee status and manuscript-specific author attestations/declarations before `READY_TO_SUBMIT`.
 
 ## PR #5 review result
 
@@ -22,20 +32,20 @@ No blocking Stage-4 issue. PR #5 was open, non-draft and mergeable, with no comm
 
 International Journal of Industrial Organization (IJIO).
 
-## Official article type
+## Official article type / Comment routing
 
 Substantive Comment pathway: verified by the January 2026 IJIO article `Generic entry, price competition, and market segmentation in the prescription drug market – a comment`.
 
-Live ordinary-submission dropdown label: **`ARTICLE_TYPE_UNRESOLVED`**.
+Authenticated ordinary-submission Article Type observed in the author's prior IJIO submission flow on 2026-08-31: **`Research Paper`**. No `Comment` option was exposed. The present manuscript should therefore be entered under `Research Paper`, with its title and cover letter identifying it explicitly as a Comment.
 
 ## Fee status
 
 - subscription/hybrid publication route: `ZERO_MANDATORY_APC_SUBSCRIPTION_ROUTE_VERIFIED` under current Elsevier pricing policy;
-- IJIO-specific submission fee: `NOT_VERIFIED` from a current primary source.
+- IJIO-specific submission fee: `NOT_VERIFIED` from either the current public IJIO materials located in this audit or the prior authenticated-project records.
 
 ## Review model
 
-`NOT_VERIFIED` from a current IJIO-specific primary source. The main manuscript is therefore prepared identity-neutral, with a separate title-page template pending the official review model.
+**Double-anonymized operational workflow confirmed from the authenticated 2026-08-31 IJIO package.** The main manuscript is identity-neutral and the title page is separate.
 
 ## Submission title
 
@@ -45,28 +55,39 @@ Live ordinary-submission dropdown label: **`ARTICLE_TYPE_UNRESOLVED`**.
 
 - Abstract: 120 words.
 - Keywords: R&D competition; R&D cooperation; asymmetric spillovers; oligopoly; threshold characterization.
-- JEL: `L13; O32`, consistent with the current AEA taxonomy and source-paper metadata.
+- JEL: `L13; O32`.
 
-## Author metadata
+## Verified stable author metadata
 
-`NOT VERIFIED IN DEDICATED REPOSITORY`. No name, affiliation, corresponding-author email, ORCID, funding or competing-interest fact has been invented. Title page and cover-letter signoff retain explicit author-confirmation placeholders.
+Recovered from `ryotamatsuki/stable-pricing-switching-costs/submission/submission_metadata.md` and the completed author-confirmation record:
+
+- Author: Ryota Matsuki
+- Single author / corresponding author
+- Affiliation: Independent Researcher
+- Location: Matsuyama, Ehime, Japan
+- Postal code: 790-0853
+- Email: ryota.matsuki@gmail.com
+- Phone: +81-90-9552-5110
+- ORCID: 0009-0005-2329-531X
+
+A street-level address was not supplied in the prior package and is not inferred. Add one only if an authenticated IJIO page actually requires it.
+
+## Manuscript-specific attestations not automatically reused
+
+The prior Shy package recorded no external funding, no competing interests, no acknowledgments, originality/no concurrent submission, and approval of that manuscript's AI disclosure. Those are manuscript-specific factual attestations. They are useful as prior provenance but remain confirmation items for the Ishikawa--Shibata manuscript rather than being silently copied.
 
 ## Manuscript package
 
-- 10-page compiled main manuscript PDF;
+- 10-page compiled anonymous main manuscript PDF;
 - editable LaTeX source package;
 - one vector aggregate-boundary figure;
-- title-page metadata template;
-- cover-letter draft;
+- populated separate title-page source, with manuscript-specific declarations still marked for confirmation;
+- cover-letter draft with verified signature/contact metadata;
 - five prepared highlights;
 - declarations and AI-disclosure records;
-- reviewer-safe reproducibility ZIP;
+- reviewer-safe reproducibility package;
 - portal field plan and file inventory;
 - SHA-256 checksums.
-
-## Cover letter / declarations
-
-The cover letter is substantively complete and restrained. It states that the equilibrium solutions survive and that the note corrects threshold characterizations. Author originality/concurrent-submission, competing-interest and signoff facts remain confirmation items. Data/code wording is prepared. AI disclosure is prepared under current Elsevier policy, subject to final author fact-check/approval. Funding/COI/acknowledgments/CRediT are not invented.
 
 ## Reproducibility package
 
@@ -74,7 +95,7 @@ The cover letter is substantively complete and restrained. It states that the eq
 
 ## Build / visual QC
 
-Two-pass `pdflatex`: PASS. No fatal errors, undefined references, or overfull/underfull warnings on the final pass. PDF: 10 pages. All pages rendered and manually inspected; no clipping, overlap, broken glyph, equation overflow, or figure-label defect observed.
+Two-pass `pdflatex`: PASS. No fatal errors, undefined references, or serious box warnings. PDF: 10 pages. All pages rendered and manually inspected; no clipping, overlap, broken glyph, equation overflow, or figure-label defect observed.
 
 ## Claim traceability
 
@@ -89,25 +110,40 @@ PASS. All headline claims trace to the three frozen propositions, Stage-2 exact 
 - R5 non-cosmetic consequence: PASS.
 - R6 compactness: PASS.
 - R7 third-party tone: PASS.
-- R8 IJIO relevance despite IREF source: `MINOR_RISK`; subject is core theoretical IO and IJIO has a comment tradition, including historical comments engaging results published outside IJIO, but cross-journal routing remains less direct than original-journal routing.
-- R9 general-IO significance: `MINOR_RISK`; no new model, so editorial significance remains the main residual desk risk.
-- R10 2026 IJIO precedent: `PASS_WITH_ADMIN_CAVEAT`; it verifies the substantive comment pathway but not the current portal dropdown taxonomy.
+- R8 IJIO relevance despite IREF source: `MINOR_RISK`.
+- R9 general-IO significance: `MINOR_RISK`.
+- R10 2026 IJIO precedent: PASS; authenticated workflow separately resolves routing through `Research Paper`.
 
 ## Remaining blockers
 
-1. Resolve the valid live IJIO ordinary-submission system/GFA and exact article-type label.
-2. Verify IJIO-specific submission-fee status.
-3. Verify IJIO-specific review/anonymization model and consequent file split.
-4. Supply and verify author/affiliation/corresponding-author metadata.
-5. Author confirms funding, competing interests, acknowledgments, originality/concurrent-submission statement and AI-disclosure factual wording.
-6. Confirm portal requirements for highlights, graphical abstract and CRediT.
+1. Verify IJIO-specific submission-fee status.
+2. Confirm funding status for this manuscript.
+3. Confirm competing interests for this manuscript.
+4. Confirm acknowledgments for this manuscript.
+5. Confirm originality and no concurrent submission for this manuscript.
+6. Final author factual approval of the present AI-disclosure wording.
+7. Complete any later authenticated system-only fields; obtain a street address only if IJIO explicitly requires it.
 
 ## Stage-5 gate
 
 **`STAGE5_BLOCKED`**.
 
-This follows the explicit strict rules: `READY_TO_SUBMIT` requires the official article type, fee status, review model and verified author metadata. The package itself is technically preflighted, but the submission button cannot yet be safely pressed.
+This remains the correct strict-gate classification because `READY_TO_SUBMIT` requires fee status and complete factual declarations. The earlier blockers for article type, review model and stable author metadata are resolved.
+
+## Cross-project evidence
+
+Source repository: `ryotamatsuki/stable-pricing-switching-costs`.
+
+Primary records:
+
+- `submission/submission_metadata.md`
+- `submission/author_confirmation_required.md`
+- `submission/upload_manifest.md`
+- `submission/README_stage8.md`
+- `submission/title_page.tex`
+
+These document an authenticated IJIO submission workflow observed on 2026-08-31 and explicit stable author metadata.
 
 ## Exact next action
 
-Do not submit. Resolve the live IJIO portal/GFA ambiguity and author metadata/declarations, then rerun a short Stage-5 delta preflight. Only after the gate becomes `READY_TO_SUBMIT` should a separate explicitly authorized Stage 6 transmit the manuscript.
+Do not submit. Confirm the manuscript-specific declarations and resolve the IJIO submission-fee status. Then rerun a short Stage-5 delta preflight, regenerate the title-page/cover-letter binaries and package hashes if needed, and move to `READY_TO_SUBMIT` only if all strict-gate items pass.
