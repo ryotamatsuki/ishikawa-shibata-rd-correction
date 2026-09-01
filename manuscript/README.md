@@ -1,18 +1,19 @@
 # Manuscript Workspace
 
-Manuscript drafting has not yet started.
+Publication-ready manuscript drafting has not yet started.
 
-Stage 0 froze evidence, claims, provenance, and reproducibility assets. Stage 1 has now frozen manuscript architecture, proposition structure, proof allocation, equation inventory, and the original-paper correction map.
+Stage 0 froze evidence, claims, provenance, and reproducibility assets. Stage 1 froze manuscript architecture, proposition structure, proof allocation, equation inventory, and the original-paper correction map. Stage 2 has completed the exact formal derivation and proof obligations.
 
-Current Stage-1 specification files:
+## Controlled specification files
 
-- `ARCHITECTURE.md`
-- `PROPOSITIONS.md`
-- `EQUATION_INVENTORY.md`
-- `CORRECTION_MAP.md`
+- `ARCHITECTURE.md` — five-section publication architecture
+- `PROPOSITIONS.md` — Stage-1 bounded theorem specifications
+- `EQUATION_INVENTORY.md` — retained/corrected equation map
+- `CORRECTION_MAP.md` — original-paper object mapping
+- `FORMAL_DERIVATIONS.md` — Stage-2 exact proof record
 
-These files are working specifications, not publication-ready manuscript prose.
+The Stage-1 files remain architectural specifications. `FORMAL_DERIVATIONS.md` is the canonical publication-facing proof record after Stage 2.
 
-No manuscript `.tex`, completed abstract, completed introduction, completed conclusion, cover letter, or submission-ready prose belongs here until the formal derivation/proof stage has passed and manuscript drafting is explicitly authorized.
+No manuscript `.tex`, completed abstract, completed introduction, completed conclusion, cover letter, or submission-ready package has been created through Stage 2.
 
-Next stage: `Stage 2 — Formal Derivation and Proof Completion`.
+Next stage after review/merge: `Dedicated Stage 3 — Manuscript Drafting and Internal Referee Review`.
