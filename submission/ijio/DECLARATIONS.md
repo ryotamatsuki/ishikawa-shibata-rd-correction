@@ -1,56 +1,63 @@
 # Submission declarations — current manuscript confirmation record
 
-Stable author metadata has been populated from the author's authenticated IJIO submission package for the Shy (2002) Comment observed on 2026-08-31. Manuscript-specific factual declarations are not automatically carried across projects.
+Stable author metadata has been populated from the author's authenticated IJIO submission package for the Shy (2002) Comment observed on 2026-08-31. The author separately confirmed on 2026-09-01 that the manuscript-specific declarations below are the same for the present Ishikawa--Shibata correction.
 
 ## Funding
-Prior IJIO package record: `No external funding.`
 
-Current Ishikawa--Shibata manuscript status: `AUTHOR_CONFIRMATION_REQUIRED_FOR_THIS_MANUSCRIPT`.
-
-If confirmed unchanged, use:
+Confirmed for this manuscript:
 
 > No external funding.
 
-## Competing interests
-Prior IJIO package record: `The author declares no competing interests.`
+Status: `CONFIRMED`.
 
-Current Ishikawa--Shibata manuscript status: `AUTHOR_CONFIRMATION_REQUIRED_FOR_THIS_MANUSCRIPT`.
+## Competing interests
+
+Confirmed for this manuscript:
+
+> The author declares no competing interests.
+
+Status: `CONFIRMED`.
 
 The authenticated IJIO flow also permits a no-competing-interest confirmation directly in the system rather than requiring a separate uploaded declaration file.
 
 ## Acknowledgments
-Prior IJIO package record: `None.`
 
-Current Ishikawa--Shibata manuscript status: `AUTHOR_CONFIRMATION_REQUIRED_FOR_THIS_MANUSCRIPT`.
+Confirmed for this manuscript: `None.`
+
+Status: `CONFIRMED`.
 
 ## Originality / concurrent submission
-The prior Shy (2002) confirmation is manuscript-specific and is not reused.
 
-Current status: `AUTHOR_CONFIRMATION_REQUIRED_FOR_THIS_MANUSCRIPT`.
+Confirmed for this manuscript:
+- the manuscript is original except for properly cited material;
+- the manuscript is not under consideration by another journal.
+
+Status: `CONFIRMED`.
 
 ## Data availability
-Proposed factual statement:
 
 > No external empirical dataset was used in this study. The results are analytical and are supported by deterministic symbolic-verification code.
 
-Status: `READY_SUBJECT_TO_AUTHOR_APPROVAL`.
+Status: `CONFIRMED_FACTUAL_STATEMENT`.
 
 ## Code availability
-Proposed factual statement for review:
 
 > A reviewer-safe reproducibility package containing the deterministic Python/SymPy verification scripts, dependency information, and expected outputs is available with the submission materials. Public archival release of the canonical repository is deferred until the review/anonymization requirements and release timing are resolved.
 
 Status: `READY_SUBJECT_TO_PORTAL_POLICY`.
 
 ## Generative AI
-See `AI_DISCLOSURE.md`. Current Elsevier journal policy requires a manuscript-preparation declaration for substantive generative-AI use and appropriate description of research-process use.
 
-The prior Shy submission records author approval of its own AI disclosure; the present manuscript's wording still requires final author factual review because the research workflow is manuscript-specific.
+See `AI_DISCLOSURE.md`. The author confirmed on 2026-09-01 that the current AI-disclosure content is accurate for this manuscript.
+
+Status: `CONFIRMED`.
 
 ## CRediT
-Status: `SYSTEM_FIELD_IF_REQUESTED`. Single-author identity is verified, but contribution-role wording should be confirmed if the authenticated portal requests CRediT roles.
+
+Status: `SYSTEM_FIELD_IF_REQUESTED`. Single-author identity is verified. If the authenticated portal requests CRediT roles, complete them consistently with sole-author responsibility without inventing additional contributors.
 
 ## Ethics approval / consent
+
 No human participants, animals, or personal data are used by this mathematical correction project. Portal applicability must still be checked if a declaration field is presented.
 
 ## Cross-project provenance
@@ -62,4 +69,4 @@ Relevant records:
 - `submission/author_confirmation_required.md`
 - `submission/upload_manifest.md`
 
-These records support stable author identity/contact metadata and the prior project's declarations. Only the former are reused without a new manuscript-specific confirmation.
+Those records support stable author identity/contact metadata and authenticated IJIO workflow facts. Manuscript-specific declarations above were separately reconfirmed by the author for the present project on 2026-09-01.
