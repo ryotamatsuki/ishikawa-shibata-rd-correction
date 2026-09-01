@@ -2,23 +2,29 @@
 
 ## Executive decision
 
-**`STAGE5_BLOCKED` under the strict gate, with materially reduced blockers after cross-project metadata recovery.**
+**`STAGE5_BLOCKED` under the strict gate, with only one remaining blocker.**
 
-The manuscript, figure, reproducibility package, cover-letter draft, highlights, metadata plan and visual PDF preflight are complete. Stable author metadata and several IJIO workflow fields that were previously unresolved have now been recovered from the author's authenticated Shy (2002) IJIO submission package dated 2026-08-31.
+The manuscript, figure, reproducibility package, cover letter, highlights, title page, declarations, metadata plan and visual PDF preflight are complete. Stable author metadata and authenticated IJIO workflow facts were recovered from the author's prior Shy (2002) IJIO submission package dated 2026-08-31. On 2026-09-01, the author separately confirmed the present manuscript's funding, competing-interest, acknowledgments, originality/no-concurrent-submission and AI-disclosure facts.
 
-Resolved from that authenticated evidence:
+Resolved:
 
 - IJIO author-facing Article Type: `Research Paper`; no `Comment` option exposed;
 - operational double-anonymized workflow: anonymous manuscript plus separate title page;
 - initial LaTeX source not required until revision;
 - Highlights available as an optional upload type;
-- stable author identity/contact metadata (Ryota Matsuki; Independent Researcher; Matsuyama, Ehime, Japan; 790-0853; email; phone; ORCID).
+- stable author identity/contact metadata;
+- funding: no external funding;
+- competing interests: none;
+- acknowledgments: none;
+- manuscript is original except for properly cited material;
+- manuscript is not under consideration elsewhere;
+- current Stage-5 AI disclosure approved by the author.
 
-The remaining block is not mathematical. The strict gate still requires IJIO-specific submission-fee status and manuscript-specific author attestations/declarations before `READY_TO_SUBMIT`.
+The only remaining strict-gate blocker is IJIO-specific submission-fee status.
 
 ## PR #5 review result
 
-No blocking Stage-4 issue. PR #5 was open, non-draft and mergeable, with no comments or unresolved review threads and no reported CI statuses. It was merged only after substantive re-review.
+No blocking Stage-4 issue. PR #5 was merged after substantive re-review.
 
 ## PR #5 merge commit / Stage-5 starting commit
 
@@ -34,18 +40,20 @@ International Journal of Industrial Organization (IJIO).
 
 ## Official article type / Comment routing
 
-Substantive Comment pathway: verified by the January 2026 IJIO article `Generic entry, price competition, and market segmentation in the prescription drug market – a comment`.
+Substantive function: third-party Comment.
 
-Authenticated ordinary-submission Article Type observed in the author's prior IJIO submission flow on 2026-08-31: **`Research Paper`**. No `Comment` option was exposed. The present manuscript should therefore be entered under `Research Paper`, with its title and cover letter identifying it explicitly as a Comment.
+Authenticated ordinary-submission Article Type observed in the author's prior IJIO submission flow on 2026-08-31: **`Research Paper`**. No `Comment` option was exposed. Enter the present manuscript under `Research Paper`, with its title and cover letter identifying it explicitly as a Comment.
 
 ## Fee status
 
 - subscription/hybrid publication route: `ZERO_MANDATORY_APC_SUBSCRIPTION_ROUTE_VERIFIED` under current Elsevier pricing policy;
-- IJIO-specific submission fee: `NOT_VERIFIED` from either the current public IJIO materials located in this audit or the prior authenticated-project records.
+- IJIO-specific submission fee: `NOT_VERIFIED` from a current IJIO-specific primary source or the prior authenticated-project record.
+
+Current non-primary journal-fee listings describe IJIO submission as free, but the strict protocol requires authoritative IJIO-specific confirmation before upgrading the gate.
 
 ## Review model
 
-**Double-anonymized operational workflow confirmed from the authenticated 2026-08-31 IJIO package.** The main manuscript is identity-neutral and the title page is separate.
+**Double-anonymized operational workflow confirmed from the authenticated 2026-08-31 IJIO package.** The main manuscript is anonymous and the title page is separate.
 
 ## Submission title
 
@@ -57,9 +65,7 @@ Authenticated ordinary-submission Article Type observed in the author's prior IJ
 - Keywords: R&D competition; R&D cooperation; asymmetric spillovers; oligopoly; threshold characterization.
 - JEL: `L13; O32`.
 
-## Verified stable author metadata
-
-Recovered from `ryotamatsuki/stable-pricing-switching-costs/submission/submission_metadata.md` and the completed author-confirmation record:
+## Verified author metadata
 
 - Author: Ryota Matsuki
 - Single author / corresponding author
@@ -70,21 +76,30 @@ Recovered from `ryotamatsuki/stable-pricing-switching-costs/submission/submissio
 - Phone: +81-90-9552-5110
 - ORCID: 0009-0005-2329-531X
 
-A street-level address was not supplied in the prior package and is not inferred. Add one only if an authenticated IJIO page actually requires it.
+A street-level address is not inferred; provide one only if the authenticated IJIO system requires it.
 
-## Manuscript-specific attestations not automatically reused
+## Current-manuscript author attestations
 
-The prior Shy package recorded no external funding, no competing interests, no acknowledgments, originality/no concurrent submission, and approval of that manuscript's AI disclosure. Those are manuscript-specific factual attestations. They are useful as prior provenance but remain confirmation items for the Ishikawa--Shibata manuscript rather than being silently copied.
+Confirmed by the author on 2026-09-01:
+
+- No external funding.
+- No competing interests.
+- No acknowledgments.
+- Original except for properly cited material.
+- Not under consideration by another journal.
+- Current Stage-5 AI-disclosure wording is accurate and approved.
+
+Canonical confirmation record: `submission/ijio/CURRENT_MANUSCRIPT_AUTHOR_CONFIRMATION.md`.
 
 ## Manuscript package
 
 - 10-page compiled anonymous main manuscript PDF;
 - editable LaTeX source package;
 - one vector aggregate-boundary figure;
-- populated separate title-page source, with manuscript-specific declarations still marked for confirmation;
-- cover-letter draft with verified signature/contact metadata;
-- five prepared highlights;
-- declarations and AI-disclosure records;
+- populated separate title-page source;
+- finalized cover-letter text and verified signature/contact metadata;
+- five prepared optional highlights;
+- finalized manuscript-specific declarations and AI-disclosure records;
 - reviewer-safe reproducibility package;
 - portal field plan and file inventory;
 - SHA-256 checksums.
@@ -112,23 +127,17 @@ PASS. All headline claims trace to the three frozen propositions, Stage-2 exact 
 - R7 third-party tone: PASS.
 - R8 IJIO relevance despite IREF source: `MINOR_RISK`.
 - R9 general-IO significance: `MINOR_RISK`.
-- R10 2026 IJIO precedent: PASS; authenticated workflow separately resolves routing through `Research Paper`.
+- R10 IJIO comment pathway/routing: PASS; authenticated workflow resolves routing through `Research Paper`.
 
-## Remaining blockers
+## Remaining blocker
 
-1. Verify IJIO-specific submission-fee status.
-2. Confirm funding status for this manuscript.
-3. Confirm competing interests for this manuscript.
-4. Confirm acknowledgments for this manuscript.
-5. Confirm originality and no concurrent submission for this manuscript.
-6. Final author factual approval of the present AI-disclosure wording.
-7. Complete any later authenticated system-only fields; obtain a street address only if IJIO explicitly requires it.
+1. Verify IJIO-specific submission-fee status from an authoritative IJIO/Elsevier submission source or the authenticated current submission flow.
 
 ## Stage-5 gate
 
-**`STAGE5_BLOCKED`**.
+**`STAGE5_BLOCKED`** solely because the user-specified strict gate requires submission-fee status to be resolved before `READY_TO_SUBMIT`.
 
-This remains the correct strict-gate classification because `READY_TO_SUBMIT` requires fee status and complete factual declarations. The earlier blockers for article type, review model and stable author metadata are resolved.
+No mathematical, manuscript, author-metadata, declaration, anonymization, article-type, reproducibility or package blocker remains.
 
 ## Cross-project evidence
 
@@ -146,4 +155,4 @@ These document an authenticated IJIO submission workflow observed on 2026-08-31 
 
 ## Exact next action
 
-Do not submit. Confirm the manuscript-specific declarations and resolve the IJIO submission-fee status. Then rerun a short Stage-5 delta preflight, regenerate the title-page/cover-letter binaries and package hashes if needed, and move to `READY_TO_SUBMIT` only if all strict-gate items pass.
+Do not submit. Resolve IJIO-specific submission-fee status. Then rerun the short final Stage-5 delta preflight, regenerate/re-hash upload binaries if needed, and move to `READY_TO_SUBMIT` only if that final fee check passes. Actual transmission still requires separate explicit authorization.
