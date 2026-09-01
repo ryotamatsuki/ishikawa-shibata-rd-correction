@@ -1,6 +1,6 @@
 Dear Editors of the International Journal of Industrial Organization,
 
-Please consider the manuscript “A Comment on ‘R&D Competition and Cooperation with Asymmetric Spillovers in an Oligopoly Market’” for publication as a Comment, subject to confirmation of the journal’s current submission-system article-type label.
+Please consider the manuscript “A Comment on ‘R&D Competition and Cooperation with Asymmetric Spillovers in an Oligopoly Market’” for publication in the International Journal of Industrial Organization. Consistent with the IJIO author-facing submission route observed on 31 August 2026, the manuscript should be entered under the `Research Paper` article type; its title and this letter identify its editorial function explicitly as a Comment.
 
 The note concerns Nana Ishikawa and Takashi Shibata (2021), “R&D competition and cooperation with asymmetric spillovers in an oligopoly market,” International Review of Economics & Finance 72, 624–642 (doi:10.1016/j.iref.2020.12.016). The manuscript does not challenge the published equilibrium solutions. It corrects threshold characterizations derived from those solutions.
 
@@ -10,11 +10,14 @@ The subject is directly within theoretical industrial organization: the correcti
 
 The proposition-level calculations are supported by deterministic Python/SymPy verification code and a reviewer-safe reproducibility package. No external empirical dataset is used. The manuscript includes the generative-AI disclosure required by current Elsevier policy.
 
-[AUTHOR CONFIRMATION REQUIRED: This manuscript is original, is not under consideration elsewhere, and all factual declarations in the submission package are accurate.]
+[CONFIRM FOR THIS MANUSCRIPT: This manuscript is original, is not under consideration elsewhere, and all factual declarations in the submission package are accurate.]
 
-[AUTHOR CONFIRMATION REQUIRED: competing-interest statement.]
+[CONFIRM FOR THIS MANUSCRIPT: competing-interest statement.]
 
 Sincerely,
 
-[AUTHOR NAME REQUIRED]
-[CORRESPONDING-AUTHOR CONTACT REQUIRED]
+Ryota Matsuki
+Independent Researcher
+790-0853, Matsuyama, Ehime, Japan
+ryota.matsuki@gmail.com
+ORCID: 0009-0005-2329-531X
