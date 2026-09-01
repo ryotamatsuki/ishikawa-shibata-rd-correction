@@ -2,21 +2,36 @@
 
 Access date: 2026-09-01.
 
-## Current official findings
+## Current official / authenticated findings
 
 - Journal scope: `VERIFIED`. IJIO explicitly covers theoretical and empirical industrial organization, including strategic behavior, market structure and technological change.
-- Submission system: the Elsevier journal page links to Editorial Manager, and a current CRESSE-IJIO special-issue notice also directs authors there. However, the public Editorial Manager landing page simultaneously displays a development-site warning. This conflict must be resolved before transmission.
+- Public submission-system page: the Elsevier journal page links to Editorial Manager, while the public EM landing page currently displays a development-site warning. This public-page inconsistency remains noted, but it is no longer used to leave the ordinary workflow unresolved because the author's own authenticated IJIO submission project recorded the operative flow on 2026-08-31.
 - Comment pathway: `COMMENT_PATHWAY_VERIFIED`. IJIO published `Generic entry, price competition, and market segmentation in the prescription drug market – a comment` in Volume 104 (January 2026).
-- Exact live ordinary-submission article-type dropdown label: `ARTICLE_TYPE_UNRESOLVED`; it is not visible in an accessible valid current portal/GFA.
-- Submission fee: `NOT_VERIFIED`. Elsevier confirms that some economics journals charge submission fees, but no accessible current IJIO-specific primary source states whether IJIO does.
+- Authenticated ordinary-submission Article Type: `RESEARCH_PAPER_CONFIRMED_FROM_AUTHENTICATED_FLOW_2026-08-31`. The author-facing list exposed `Research Paper`; no `Comment` option was exposed. The Comment is therefore routed as a Research Paper while the title and cover letter identify its function.
+- Review/anonymization workflow: `DOUBLE_ANONYMIZED_OPERATION_CONFIRMED_FROM_AUTHENTICATED_FLOW_2026-08-31`. The prior IJIO package uses an anonymized manuscript plus a separate `Title page with author details`, and its submission metadata records double-anonymized review.
+- Initial LaTeX-source handling: `PDF_INITIAL_UPLOAD_CONFIRMED_FROM_AUTHENTICATED_FLOW_2026-08-31`; the recorded upload screen stated that LaTeX source files were not required until revision.
+- Highlights: `OPTIONAL_FILE_TYPE_CONFIRMED_FROM_AUTHENTICATED_FLOW_2026-08-31`; prepared highlights may be uploaded if desired/requested.
+- Competing interests: authenticated workflow permits a no-competing-interest confirmation in the system instead of a separate declaration file.
+- Submission fee: `NOT_VERIFIED`. Neither the current IJIO public material located in this audit nor the prior authenticated-project record contains an authoritative IJIO-specific fee determination.
 - Publishing cost: `ZERO_MANDATORY_APC_SUBSCRIPTION_ROUTE_VERIFIED`. Current Elsevier policy states that authors publishing in hybrid journals may choose the subscription model at no author APC cost.
-- Peer-review anonymization model: `NOT_VERIFIED` from a current IJIO-specific primary source.
-- Highlights: `PREPARED_PENDING_PORTAL_REQUIREMENT`. Recent IJIO articles display highlights, but a Comment-specific mandatory rule was not verified.
-- Graphical abstract: `NOT_INCLUDED_PENDING_PORTAL_REQUIREMENT`.
 - AI disclosure: `VERIFIED_AND_PREPARED`. Current Elsevier journal policy requires disclosure of substantive generative-AI manuscript-preparation use and appropriate description of research-process/code use.
 - Data/code: `REVIEWER_SAFE_CODE_PACKAGE_PREPARED`.
 
-## Primary-source URLs
+## Cross-project authenticated evidence
+
+Author-owned repository: `ryotamatsuki/stable-pricing-switching-costs`.
+
+Key records:
+
+- `submission/submission_metadata.md`
+- `submission/author_confirmation_required.md`
+- `submission/upload_manifest.md`
+- `submission/README_stage8.md`
+- `submission/title_page.tex`
+
+These records document the IJIO author-facing flow observed on 2026-08-31, one day before this Stage-5 audit. Journal-level workflow facts and stable author metadata may therefore be reused. Manuscript-specific attestations (funding, competing interests, originality/concurrent submission, acknowledgments, and factual AI wording) remain subject to confirmation for the present manuscript.
+
+## Public primary-source URLs
 
 - https://shop.elsevier.com/journals/international-journal-of-industrial-organization/0167-7187
 - https://www.editorialmanager.com/ijio/
@@ -28,4 +43,4 @@ Access date: 2026-09-01.
 
 ## Gate consequence
 
-The substantive Comment pathway is verified by a 2026 IJIO publication, but the Stage-5 protocol requires the official live article type, submission-fee status and review/anonymization model to be resolved before `READY_TO_SUBMIT`. They are not currently resolved. Therefore the strict Stage-5 gate is `STAGE5_BLOCKED` even though the manuscript/reproducibility package itself passes preflight.
+The previous blockers for article type, review/anonymization workflow, stable author identity/contact metadata, initial source handling and Highlights are now resolved by authenticated 2026-08-31 IJIO evidence. The strict Stage-5 gate remains blocked only because IJIO-specific submission-fee status is not verified and manuscript-specific author attestations/declarations still require confirmation. No mathematical or manuscript-content blocker remains.
