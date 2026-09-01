@@ -2,7 +2,7 @@
 
 ## Current stage
 
-`Stage 2 — Formal Derivation and Proof Completion`
+`Dedicated Stage 3 — Manuscript Drafting and Internal Referee Review`
 
 ## Gate status
 
@@ -13,6 +13,7 @@
 - Stage 0: `STAGE0_PASS`
 - Stage 1: `STAGE1_PASS`
 - Stage 2: `STAGE2_PASS`
+- Stage 3: `STAGE3_PASS`
 
 ## Completed
 
@@ -22,30 +23,34 @@
 - Stage 0 Evidence Freeze in dedicated repository
 - Stage 1 manuscript architecture and proposition freeze in dedicated repository
 - Stage 2 exact formal derivation and proof completion in dedicated repository
+- Stage 3 correction manuscript draft and two-round internal referee review
 
-## Frozen architecture
+## Frozen manuscript package
 
 - contributions: 3
 - propositions: 3
-- main-text lemmas: 0
 - main sections: 5
-- preferred figures: 1 (maximum 2)
-- preferred tables: 0 (maximum 1)
-- working main-text budget: 3,500–5,000 words
+- main figures: 1
+- main tables: 0
+- revised main-text length: approximately 3,520 words
+- appendix sections: 4
+- Round-2 internal decision: `READY_FOR_JOURNAL_STRATEGY`
+- internal build target: `manuscript/manuscript_draft.pdf`
 
 ## Formal-proof status
 
 All six Stage-1 proof obligations are closed. Exact proof records are in `manuscript/FORMAL_DERIVATIONS.md`; executable symbolic checks are in `code/formal_derivation.py`.
 
-## Not yet started / not yet completed
+## Remaining before submission readiness
 
-- publication-ready manuscript drafting
-- figure production
-- journal selection
-- submission package
+- final journal and article-type selection
+- journal-specific title/formatting
+- author and affiliation metadata
+- repository disclosure/public-release decision
+- submission package and journal-specific QC
 
 ## Next stage
 
-`Dedicated Stage 3 — Manuscript Drafting and Internal Referee Review`
+`Dedicated Stage 4 — Journal Strategy and Submission-Readiness Review`
 
-The Stage-0 claim boundary and Stage-2 exact proof record remain controlling constraints during manuscript drafting.
+The Stage-0 claim boundary and Stage-2 exact proof record remain controlling constraints.

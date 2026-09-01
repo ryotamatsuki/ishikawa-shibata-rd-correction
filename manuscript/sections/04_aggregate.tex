@@ -1,0 +1,82 @@
+\section{The corrected aggregate boundary and classification}
+
+We now turn to the aggregate comparison in Eq. \eqref{eq:DA}. This is the object underlying the scalar threshold and fixed average-spillover classification in Observations 4--5. Two logically distinct issues must be separated. The first is geometric: does the equality set collapse to a line determined only by $\beta_1+\beta_2$? The second is comparative-static: once the correct equality locus is used, is its location independent of $\gamma$? The factorization below answers the first question, while a separate regular-root argument answers the second. Keeping the arguments separate prevents the mere appearance of $\gamma$ in an intermediate polynomial from being mistaken for proof that the zero set itself moves with $\gamma$.
+
+\begin{proposition}[Aggregate equality boundary]\label{prop:aggregate}
+The aggregate equality boundary $\DA=0$ is not generally characterized by a scalar line $\beta_1+\beta_2=\theta(\lambda)$. At $\lambda=0$, set $s=\beta_1+\beta_2$ and $d=\beta_1-\beta_2$. On the published line $s=1$, the cleared equality polynomial satisfies
+\begin{equation}\label{eq:aggfactor}
+ Q_A\big|_{s=1}=\frac{d^2}{2}(18\gamma+d^2-9).
+\end{equation}
+Hence, for $\gamma\geq1$, every regular asymmetric point $d\neq0$ on that line fails aggregate equality. In addition, the corrected aggregate equality locus is locally $\gamma$-dependent at a regular asymmetric point.
+\end{proposition}
+
+\begin{proof}
+The first statement follows immediately from the exact factorization \eqref{eq:aggfactor}. For $\gamma\geq1$, the factor $18\gamma+d^2-9$ is strictly positive. Thus, except at $d=0$, the cleared numerator cannot vanish. The canceled form of $\DA$ on $\lambda=0$, $s=1$ is
+\[
+ \DA=
+ \frac{32\gamma d^2(a-c)}
+ {(-6\gamma+d^2+3)
+  (36\gamma^2-20\gamma d^2-36\gamma+d^4+6d^2+9)},
+\]
+so the conclusion applies wherever the retained closed forms are regular.
+
+To establish $\gamma$ dependence of the corrected locus itself, set $\lambda=0$, $\beta_2=0$ and write $B=\beta_1$, $G=\gamma$. At $G=2$, the cleared equality equation becomes
+\begin{equation}\label{eq:alphaeq}
+ 2B\bigl(10B^3-35B^2+18\bigr)=0.
+\end{equation}
+The nonzero root $\alpha$ is unique in $(0,1)$ and satisfies
+\[
+ \frac{4097}{5000}<\alpha<\frac{1639}{2000}.
+\]
+The relevant denominator is nonzero on this interval. Reducing the partial derivatives of the general cleared equality polynomial modulo the root equation gives
+\[
+ Q_{A,G}(\alpha,2)
+ =-\frac95(25\alpha^2-35\alpha+8)>0,
+\]
+whereas
+\[
+ Q_{A,B}(\alpha,2)=2(35\alpha^2-54)<0.
+\]
+The implicit-function theorem then gives $d\alpha^*/dG=-Q_{A,G}/Q_{A,B}>0$. Thus the corrected aggregate boundary varies with $\gamma$ at a regular asymmetric interior point.\qedhere
+\end{proof}
+
+Figure \ref{fig:aggregate} illustrates the first part of Proposition \ref{prop:aggregate}. At $\lambda=0$, the corrected zero sets for three values of $\gamma$ all pass through the symmetric point $(1/2,1/2)$, but they deviate from the published straight line away from symmetry. The figure is only an illustration: the result rests on the factorization in Eq. \eqref{eq:aggfactor} and the regular-root argument above. The geometry also clarifies why a scalar average-spillover rule is too restrictive. Along the published line, moving away from $\beta_1=\beta_2$ changes the asymmetry measure $d$ while holding the average spillover fixed. Equation \eqref{eq:aggfactor} shows that this movement immediately changes the equality condition whenever $d\neq0$. Thus two parameter vectors with the same average spillover need not belong to the same R\&D regime. The corrected object is therefore a locus in the two spillover parameters, not a threshold in their average alone. The separate IFT calculation adds that even this locus is not fixed as the R\&D-cost parameter varies. These two corrections address different forms of dimensional reduction. The constant-sum representation removes the asymmetry coordinate $d$; the asserted $\gamma$ invariance then removes a second parameter from the location of the boundary. The exact calculations show that neither reduction is valid in general. This is why the corrected classification cannot be repaired merely by replacing one numerical cutoff with another universal number. The appropriate object is $D_A=0$ evaluated at the parameter values of interest.
+
+\begin{figure}[t]
+ \centering
+ \includegraphics[width=0.68\textwidth]{../figures/aggregate_boundary.pdf}
+ \caption{Published straight boundary and corrected aggregate equality loci at $\lambda=0$. The corrected curves are zero sets of $D_A$ computed from the retained closed-form equilibria for $\gamma\in\{10,50,100\}$. All meet at the symmetric crossing $(1/2,1/2)$, while asymmetric points generally deviate from the published line $\beta_1+\beta_2=1$. The figure is illustrative; Proposition \ref{prop:aggregate} is established analytically.}
+ \label{fig:aggregate}
+\end{figure}
+
+The boundary correction has a direct classification consequence.
+
+\begin{proposition}[Positive-measure classification error]\label{prop:misclass}
+At
+\[
+(a,c,\gamma,\lambda,\beta_1,\beta_2)
+=(100,50,10,0,49/50,0),
+\]
+the fixed average-spillover rule and the corrected aggregate comparison give opposite classifications. The disagreement persists on an open neighborhood of this point; hence the set of misclassified admissible parameters has positive Lebesgue measure.
+\end{proposition}
+
+\begin{proof}
+The fixed rule uses average spillover
+\[
+ \frac{\beta_1+\beta_2}{2}=\frac{49}{100}<\frac12,
+\]
+which places the parameter point on the noncooperative-R\&D side of the published cutoff. The retained closed forms instead give exactly
+\[
+ x_1^n+x_2^n=\frac{360160}{100239},\qquad
+ x_1^c+x_2^c=\frac{69400}{19119},
+\]
+and therefore
+\begin{equation}\label{eq:exactgap}
+ \DA=-\frac{23562520}{638823147}<0.
+\end{equation}
+Thus aggregate cooperative R\&D is strictly larger at the same point.
+
+The retained equilibrium denominators are nonzero there, and the interior R\&D levels, outputs, and marginal costs are positive. The relevant first-stage curvature conditions are also strict; exact certificates are reported in Appendix D. Hence the rational equilibrium functions are continuous on some neighborhood of the parameter point. Both the published cutoff inequality $0.49<0.5$ and the corrected inequality $\DA<0$ are strict. They therefore retain their signs on a sufficiently small open neighborhood. The two classifications disagree throughout that neighborhood, which has positive Lebesgue measure.\qedhere
+\end{proof}
+
+Proposition \ref{prop:misclass} is deliberately a qualitative consequence. It does not claim that the disagreement region has a particular global area, that the welfare effect is large, or that empirical estimates in later work change. Its role is to show that the threshold discrepancy is not a harmless equality-point normalization: it changes the regime classification on a nondegenerate admissible set. The positive-measure conclusion is the minimal rigorous way to state this non-cosmetic consequence. At the stated point the published rule and the corrected comparison have opposite strict signs. Continuity implies that there exists an $\varepsilon>0$ such that both signs are preserved for every parameter vector in a sufficiently small ball around that point that remains inside the regular admissible region. Such a ball contains an open subset of Euclidean parameter space and therefore has positive Lebesgue measure. No grid approximation or numerical estimate of the area's size is needed for this conclusion. This point is important for the interpretation of the result. A single counterexample by itself would establish that the universal cutoff is false, but it could leave open the possibility that the discrepancy is confined to a knife-edge set. The continuity step rules out that interpretation. Conversely, positive measure should not be read as a statement that the region is quantitatively large. The proposition establishes nondegeneracy of the classification error and no more.

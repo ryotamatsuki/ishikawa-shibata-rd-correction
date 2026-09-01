@@ -1,0 +1,42 @@
+\section{The corrected individual threshold}
+
+\begin{proposition}[Individual equality boundary]\label{prop:individual}
+The individual equality boundary $\Di=0$ is not invariant to $\gamma$ in general. In particular, on the regular asymmetric slice $\lambda=0$, $\beta_2=0$, the equality equation admits the exact root $(\beta_1,\gamma)=(1/3,44/27)$, at which
+\[
+ \frac{d\beta_1^*}{d\gamma}=-\frac{9}{59}\neq0.
+\]
+In contrast, on the symmetric slice $\beta_1=\beta_2=b$, the regular equality condition has the exact crossing
+\begin{equation}\label{eq:symcross}
+ b^*(\lambda)=\frac{2+\lambda-\lambda^2}{\lambda^2-3\lambda+4},
+\end{equation}
+which is independent of $\gamma$.
+\end{proposition}
+
+\begin{proof}
+Set $\lambda=0$ and $\beta_2=0$, and write $B=\beta_1$ and $G=\gamma$. After clearing denominators that are nonzero on the regular domain, $D_1=0$ is equivalent to $Q_I(B,G)=0$, where
+\begin{align*}
+Q_I(B,G)=&-27(2B-1)G^2
+ +18(2B^3-7B^2+12B-5)G\\
+&-4(10B^3-35B^2+45B-18).
+\end{align*}
+At $(B,G)=(1/3,44/27)$, direct exact substitution gives
+\[
+ Q_I=0,\qquad Q_{I,G}=-\frac43,\qquad Q_{I,B}=-\frac{236}{27},
+\]
+and the corresponding cleared denominator equals $808640/19683\neq0$. The implicit-function theorem therefore applies and yields
+\[
+ \frac{dB^*}{dG}=-\frac{Q_{I,G}}{Q_{I,B}}=-\frac{9}{59}\neq0.
+\]
+A globally $\gamma$-invariant trigger is therefore impossible. The logic is intentionally local because the published claim being corrected is universal. If the same threshold were independent of $\gamma$ throughout the admissible region, every regular branch of that threshold would have zero derivative with respect to $\gamma$. One exact regular point with a nonzero derivative is sufficient to falsify that universal invariance statement. The calculation does not purport to characterize every branch or to establish a global monotonicity result; it establishes exactly what is needed for the correction.
+
+For the symmetric case, substitute $\beta_1=\beta_2=b$ in the retained closed forms. The numerator of $D_1$ factors as
+\[
+ -\gamma(a-c)(\lambda-3)^2
+ \left[b(\lambda^2-3\lambda+4)+\lambda^2-\lambda-2\right].
+\]
+On the regular domain, the equality condition is therefore the vanishing of the bracketed term, which gives Eq. \eqref{eq:symcross}. The factor $\gamma$ cancels exactly on this symmetric slice.\qedhere
+\end{proof}
+
+Proposition \ref{prop:individual} separates two statements that the published numerical discussion tends to conflate. The $\gamma=50$ trigger values reported in Table 1 can be reproduced from the published equilibrium formulas. Moreover, the maximum trigger values in those comparisons occur at the symmetric crossing in Eq. \eqref{eq:symcross}. Neither fact implies that the trigger is independent of $\gamma$ away from symmetry. The exact IFT calculation above gives a regular asymmetric point at which the threshold moves with $\gamma$.
+
+This also clarifies the interpretation of a plot such as Fig. 1(d). A selected slice can pass through an exact cancellation point and consequently show the same crossing for different values of $\gamma$. That visual coincidence is consistent with Proposition \ref{prop:individual}; it is a feature of the symmetric fixed point, not evidence for global parameter invariance. In short, special exact cancellation and global invariance are different mathematical claims. The symmetric result is nevertheless useful rather than merely exceptional. It identifies an anchor shared by the corrected boundaries and explains why the published calibration can look stable when attention is focused on symmetric or fixed-point comparisons. A correction that simply reported moving numerical roots would leave that apparent stability unexplained. Equation \eqref{eq:symcross} instead shows that the stability is real on a lower-dimensional slice and invalid only when it is generalized beyond that slice. The IFT calculation also has a useful robustness implication without requiring a global theorem. Because the derivative is nonzero at a regular point, it remains nonzero on some sufficiently small neighborhood after a continuous perturbation of the parameters. Thus the failure of invariance is not tied to an isolated arithmetic coincidence at $B=1/3$ and $G=44/27$. We do not need to characterize the size of that neighborhood, or the direction of movement everywhere, to reject the global invariance claim.
