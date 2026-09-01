@@ -41,7 +41,7 @@ def main():
     ax.annotate(r'$(1/2,1/2)$',xy=(0.5,0.5),xytext=(0.56,0.43),fontsize=9,arrowprops=dict(arrowstyle='-',linewidth=0.7,color='black'))
     ax.set_xlim(0,1); ax.set_ylim(0,1); ax.set_xlabel(r'$\beta_1$'); ax.set_ylabel(r'$\beta_2$')
     ax.legend(frameon=False,fontsize=8,loc='lower left'); ax.set_aspect('equal',adjustable='box'); fig.tight_layout()
-    fig.savefig('../../figures/aggregate_boundary.pdf',bbox_inches='tight')
+    fig.savefig('aggregate_boundary.pdf',bbox_inches='tight')
 
 
 if __name__=='__main__': main()
