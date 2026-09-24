@@ -1,5 +1,9 @@
 # Project Status
 
+## Workflow sync
+
+`research-paper-workflow` v2.5 @ `46d17bc4c1036955103224a5c0358a70edd2cb90` exposition obligations have been mapped into the dedicated route. See `results/EXPOSITION_STREAMLINING_V2_5.md`: **PASS — no manuscript content change required**.
+
 ## Current stage
 
 `Dedicated Stage 5 — Submission Package and Final Pre-Submission Audit`
@@ -80,6 +84,8 @@ All proof obligations remain closed. Exact proof records are in `manuscript/FORM
 ## Remaining strict blocker before `READY_TO_SUBMIT`
 
 1. verify IJIO-specific submission-fee status.
+
+The v2.5 exposition retrofit is closed and is not an additional blocker.
 
 Later authenticated system-only fields may still appear during submission, and a street-level address should be supplied only if IJIO actually requires one. Those do not justify inventing information now.
 
