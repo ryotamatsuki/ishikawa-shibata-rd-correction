@@ -1,0 +1,5 @@
+Published R&D equilibrium formulas remain valid.
+Individual R&D thresholds depend on the R&D-cost parameter in general.
+A symmetric spillover crossing is exactly cost-parameter independent.
+Aggregate equality depends on spillover asymmetry and the R&D-cost parameter.
+A fixed average-spillover cutoff misclassifies an open parameter set.
